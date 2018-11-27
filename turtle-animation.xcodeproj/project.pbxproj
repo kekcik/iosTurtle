@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734ED97A21AD6C7700F36F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED97921AD6C7700F36F0E /* AppDelegate.swift */; };
+		734ED97C21AD6C7700F36F0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED97B21AD6C7700F36F0E /* ViewController.swift */; };
+		734ED97F21AD6C7700F36F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734ED97D21AD6C7700F36F0E /* Main.storyboard */; };
+		734ED98121AD6C7900F36F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734ED98021AD6C7900F36F0E /* Assets.xcassets */; };
+		734ED98421AD6C7900F36F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734ED98221AD6C7900F36F0E /* LaunchScreen.storyboard */; };
+		734ED98F21AD6C7900F36F0E /* turtle_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED98E21AD6C7900F36F0E /* turtle_animationTests.swift */; };
+		734ED99A21AD6C7900F36F0E /* turtle_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED99921AD6C7900F36F0E /* turtle_animationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		734ED98B21AD6C7900F36F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734ED96E21AD6C7700F36F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734ED97521AD6C7700F36F0E;
+			remoteInfo = "turtle-animation";
+		};
+		734ED99621AD6C7900F36F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734ED96E21AD6C7700F36F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734ED97521AD6C7700F36F0E;
+			remoteInfo = "turtle-animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		734ED97621AD6C7700F36F0E /* turtle-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turtle-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734ED97921AD6C7700F36F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		734ED97B21AD6C7700F36F0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		734ED97E21AD6C7700F36F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		734ED98021AD6C7900F36F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734ED98321AD6C7900F36F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		734ED98521AD6C7900F36F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734ED98A21AD6C7900F36F0E /* turtle-animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "turtle-animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734ED98E21AD6C7900F36F0E /* turtle_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turtle_animationTests.swift; sourceTree = "<group>"; };
+		734ED99021AD6C7900F36F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734ED99521AD6C7900F36F0E /* turtle-animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "turtle-animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734ED99921AD6C7900F36F0E /* turtle_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turtle_animationUITests.swift; sourceTree = "<group>"; };
+		734ED99B21AD6C7900F36F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734ED97321AD6C7700F36F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734ED98721AD6C7900F36F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734ED99221AD6C7900F36F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734ED96D21AD6C7700F36F0E = {
+			isa = PBXGroup;
+			children = (
+				734ED97821AD6C7700F36F0E /* turtle-animation */,
+				734ED98D21AD6C7900F36F0E /* turtle-animationTests */,
+				734ED99821AD6C7900F36F0E /* turtle-animationUITests */,
+				734ED97721AD6C7700F36F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734ED97721AD6C7700F36F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734ED97621AD6C7700F36F0E /* turtle-animation.app */,
+				734ED98A21AD6C7900F36F0E /* turtle-animationTests.xctest */,
+				734ED99521AD6C7900F36F0E /* turtle-animationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734ED97821AD6C7700F36F0E /* turtle-animation */ = {
+			isa = PBXGroup;
+			children = (
+				734ED97921AD6C7700F36F0E /* AppDelegate.swift */,
+				734ED97B21AD6C7700F36F0E /* ViewController.swift */,
+				734ED97D21AD6C7700F36F0E /* Main.storyboard */,
+				734ED98021AD6C7900F36F0E /* Assets.xcassets */,
+				734ED98221AD6C7900F36F0E /* LaunchScreen.storyboard */,
+				734ED98521AD6C7900F36F0E /* Info.plist */,
+			);
+			path = "turtle-animation";
+			sourceTree = "<group>";
+		};
+		734ED98D21AD6C7900F36F0E /* turtle-animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				734ED98E21AD6C7900F36F0E /* turtle_animationTests.swift */,
+				734ED99021AD6C7900F36F0E /* Info.plist */,
+			);
+			path = "turtle-animationTests";
+			sourceTree = "<group>";
+		};
+		734ED99821AD6C7900F36F0E /* turtle-animationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				734ED99921AD6C7900F36F0E /* turtle_animationUITests.swift */,
+				734ED99B21AD6C7900F36F0E /* Info.plist */,
+			);
+			path = "turtle-animationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734ED97521AD6C7700F36F0E /* turtle-animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734ED99E21AD6C7900F36F0E /* Build configuration list for PBXNativeTarget "turtle-animation" */;
+			buildPhases = (
+				734ED97221AD6C7700F36F0E /* Sources */,
+				734ED97321AD6C7700F36F0E /* Frameworks */,
+				734ED97421AD6C7700F36F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "turtle-animation";
+			productName = "turtle-animation";
+			productReference = 734ED97621AD6C7700F36F0E /* turtle-animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		734ED98921AD6C7900F36F0E /* turtle-animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734ED9A121AD6C7900F36F0E /* Build configuration list for PBXNativeTarget "turtle-animationTests" */;
+			buildPhases = (
+				734ED98621AD6C7900F36F0E /* Sources */,
+				734ED98721AD6C7900F36F0E /* Frameworks */,
+				734ED98821AD6C7900F36F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734ED98C21AD6C7900F36F0E /* PBXTargetDependency */,
+			);
+			name = "turtle-animationTests";
+			productName = "turtle-animationTests";
+			productReference = 734ED98A21AD6C7900F36F0E /* turtle-animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		734ED99421AD6C7900F36F0E /* turtle-animationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734ED9A421AD6C7900F36F0E /* Build configuration list for PBXNativeTarget "turtle-animationUITests" */;
+			buildPhases = (
+				734ED99121AD6C7900F36F0E /* Sources */,
+				734ED99221AD6C7900F36F0E /* Frameworks */,
+				734ED99321AD6C7900F36F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734ED99721AD6C7900F36F0E /* PBXTargetDependency */,
+			);
+			name = "turtle-animationUITests";
+			productName = "turtle-animationUITests";
+			productReference = 734ED99521AD6C7900F36F0E /* turtle-animationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734ED96E21AD6C7700F36F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Taya Penskaya";
+				TargetAttributes = {
+					734ED97521AD6C7700F36F0E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					734ED98921AD6C7900F36F0E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 734ED97521AD6C7700F36F0E;
+					};
+					734ED99421AD6C7900F36F0E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 734ED97521AD6C7700F36F0E;
+					};
+				};
+			};
+			buildConfigurationList = 734ED97121AD6C7700F36F0E /* Build configuration list for PBXProject "turtle-animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734ED96D21AD6C7700F36F0E;
+			productRefGroup = 734ED97721AD6C7700F36F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734ED97521AD6C7700F36F0E /* turtle-animation */,
+				734ED98921AD6C7900F36F0E /* turtle-animationTests */,
+				734ED99421AD6C7900F36F0E /* turtle-animationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734ED97421AD6C7700F36F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734ED98421AD6C7900F36F0E /* LaunchScreen.storyboard in Resources */,
+				734ED98121AD6C7900F36F0E /* Assets.xcassets in Resources */,
+				734ED97F21AD6C7700F36F0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734ED98821AD6C7900F36F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734ED99321AD6C7900F36F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734ED97221AD6C7700F36F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734ED97C21AD6C7700F36F0E /* ViewController.swift in Sources */,
+				734ED97A21AD6C7700F36F0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734ED98621AD6C7900F36F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734ED98F21AD6C7900F36F0E /* turtle_animationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734ED99121AD6C7900F36F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734ED99A21AD6C7900F36F0E /* turtle_animationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		734ED98C21AD6C7900F36F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734ED97521AD6C7700F36F0E /* turtle-animation */;
+			targetProxy = 734ED98B21AD6C7900F36F0E /* PBXContainerItemProxy */;
+		};
+		734ED99721AD6C7900F36F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734ED97521AD6C7700F36F0E /* turtle-animation */;
+			targetProxy = 734ED99621AD6C7900F36F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		734ED97D21AD6C7700F36F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734ED97E21AD6C7700F36F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		734ED98221AD6C7900F36F0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734ED98321AD6C7900F36F0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734ED99C21AD6C7900F36F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		734ED99D21AD6C7900F36F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734ED99F21AD6C7900F36F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "turtle-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taya.turtle-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		734ED9A021AD6C7900F36F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "turtle-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taya.turtle-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		734ED9A221AD6C7900F36F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "turtle-animationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taya.turtle-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turtle-animation.app/turtle-animation";
+			};
+			name = Debug;
+		};
+		734ED9A321AD6C7900F36F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "turtle-animationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taya.turtle-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turtle-animation.app/turtle-animation";
+			};
+			name = Release;
+		};
+		734ED9A521AD6C7900F36F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "turtle-animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taya.turtle-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "turtle-animation";
+			};
+			name = Debug;
+		};
+		734ED9A621AD6C7900F36F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "turtle-animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Taya.turtle-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "turtle-animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734ED97121AD6C7700F36F0E /* Build configuration list for PBXProject "turtle-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734ED99C21AD6C7900F36F0E /* Debug */,
+				734ED99D21AD6C7900F36F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734ED99E21AD6C7900F36F0E /* Build configuration list for PBXNativeTarget "turtle-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734ED99F21AD6C7900F36F0E /* Debug */,
+				734ED9A021AD6C7900F36F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734ED9A121AD6C7900F36F0E /* Build configuration list for PBXNativeTarget "turtle-animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734ED9A221AD6C7900F36F0E /* Debug */,
+				734ED9A321AD6C7900F36F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734ED9A421AD6C7900F36F0E /* Build configuration list for PBXNativeTarget "turtle-animationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734ED9A521AD6C7900F36F0E /* Debug */,
+				734ED9A621AD6C7900F36F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 734ED96E21AD6C7700F36F0E /* Project object */;
+}
