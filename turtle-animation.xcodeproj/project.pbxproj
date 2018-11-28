@@ -14,6 +14,9 @@
 		734ED98421AD6C7900F36F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734ED98221AD6C7900F36F0E /* LaunchScreen.storyboard */; };
 		734ED98F21AD6C7900F36F0E /* turtle_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED98E21AD6C7900F36F0E /* turtle_animationTests.swift */; };
 		734ED99A21AD6C7900F36F0E /* turtle_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED99921AD6C7900F36F0E /* turtle_animationUITests.swift */; };
+		734ED9A821AD6F3E00F36F0E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED9A721AD6F3E00F36F0E /* FirstViewController.swift */; };
+		734ED9AC21AD834A00F36F0E /* turtle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 734ED9AB21AD834A00F36F0E /* turtle.jpg */; };
+		734ED9AE21AD85F600F36F0E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED9AD21AD85F600F36F0E /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		734ED99521AD6C7900F36F0E /* turtle-animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "turtle-animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734ED99921AD6C7900F36F0E /* turtle_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turtle_animationUITests.swift; sourceTree = "<group>"; };
 		734ED99B21AD6C7900F36F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734ED9A721AD6F3E00F36F0E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		734ED9AB21AD834A00F36F0E /* turtle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtle.jpg; sourceTree = "<group>"; };
+		734ED9AD21AD85F600F36F0E /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		734ED97821AD6C7700F36F0E /* turtle-animation */ = {
 			isa = PBXGroup;
 			children = (
+				734ED9AB21AD834A00F36F0E /* turtle.jpg */,
 				734ED97921AD6C7700F36F0E /* AppDelegate.swift */,
 				734ED97B21AD6C7700F36F0E /* ViewController.swift */,
+				734ED9A721AD6F3E00F36F0E /* FirstViewController.swift */,
+				734ED9AD21AD85F600F36F0E /* MyTableViewCell.swift */,
 				734ED97D21AD6C7700F36F0E /* Main.storyboard */,
 				734ED98021AD6C7900F36F0E /* Assets.xcassets */,
 				734ED98221AD6C7900F36F0E /* LaunchScreen.storyboard */,
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				734ED98421AD6C7900F36F0E /* LaunchScreen.storyboard in Resources */,
+				734ED9AC21AD834A00F36F0E /* turtle.jpg in Resources */,
 				734ED98121AD6C7900F36F0E /* Assets.xcassets in Resources */,
 				734ED97F21AD6C7700F36F0E /* Main.storyboard in Resources */,
 			);
@@ -256,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734ED9A821AD6F3E00F36F0E /* FirstViewController.swift in Sources */,
+				734ED9AE21AD85F600F36F0E /* MyTableViewCell.swift in Sources */,
 				734ED97C21AD6C7700F36F0E /* ViewController.swift in Sources */,
 				734ED97A21AD6C7700F36F0E /* AppDelegate.swift in Sources */,
 			);

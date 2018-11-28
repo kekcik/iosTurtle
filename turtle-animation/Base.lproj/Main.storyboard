@@ -1,24 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3H2-3F-OGS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Settings-->
+        <scene sceneID="jLt-5Q-Iq9">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="RFB-dW-HQm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="moS-7q-hxv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oWP-JT-pHr"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="Tnl-7P-Npt"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ld-iY-CGl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="322" y="296"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="lci-1r-eiG">
+            <objects>
+                <viewController id="69X-Vb-cdz" customClass="FirstViewController" customModule="turtle_animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xgl-DV-MGg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yqr-U9-7aB">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myCell" rowHeight="150" id="wfW-55-vyB" customClass="MyTableViewCell" customModule="turtle_animation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wfW-55-vyB" id="hR0-oG-cRH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n2A-Lx-fof">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="150.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="200" id="8RT-dR-EFp"/>
+                                                        <constraint firstAttribute="height" constant="150" id="MnH-pp-dOI"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="n2A-Lx-fof" secondAttribute="bottom" id="1ke-kV-V9A"/>
+                                                <constraint firstItem="n2A-Lx-fof" firstAttribute="top" secondItem="hR0-oG-cRH" secondAttribute="top" id="D6p-oe-PMs"/>
+                                                <constraint firstItem="n2A-Lx-fof" firstAttribute="leading" secondItem="hR0-oG-cRH" secondAttribute="leading" id="vE9-eA-4NH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myImage" destination="n2A-Lx-fof" id="KEx-9I-QAr"/>
+                                            <outlet property="tralling" destination="vE9-eA-4NH" id="csU-6h-WTP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="69X-Vb-cdz" id="lYG-yk-hIe"/>
+                                    <outlet property="delegate" destination="69X-Vb-cdz" id="Il2-Ma-G9e"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yqr-U9-7aB" firstAttribute="leading" secondItem="38B-vN-VFH" secondAttribute="leading" id="2Z3-nd-AtF"/>
+                            <constraint firstItem="yqr-U9-7aB" firstAttribute="bottom" secondItem="38B-vN-VFH" secondAttribute="bottom" id="6fn-69-4hJ"/>
+                            <constraint firstItem="yqr-U9-7aB" firstAttribute="trailing" secondItem="38B-vN-VFH" secondAttribute="trailing" id="a5j-6v-uca"/>
+                            <constraint firstItem="yqr-U9-7aB" firstAttribute="top" secondItem="38B-vN-VFH" secondAttribute="top" id="g1E-Mk-sZ1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="38B-vN-VFH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="Icf-SQ-LOl"/>
+                    <connections>
+                        <outlet property="myTableView" destination="yqr-U9-7aB" id="Rsg-6o-mEm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9w-Vw-D5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320.80000000000001" y="-370.16491754122939"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="bto-BN-Fwc">
+            <objects>
+                <tabBarController id="3H2-3F-OGS" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9je-SL-7pW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="69X-Vb-cdz" kind="relationship" relationship="viewControllers" id="sqj-WP-cBM"/>
+                        <segue destination="RFB-dW-HQm" kind="relationship" relationship="viewControllers" id="BEt-T7-23o"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wNl-sD-OpW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-630" y="-37"/>
         </scene>
     </scenes>
 </document>
